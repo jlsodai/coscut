@@ -116,3 +116,45 @@
   font-weight: 900;
   src: url("../../public/fonts/Recoleta-Black.ttf");
 }
+
+@font-face {
+  font-family: "RecoletaAlt";
+  font-weight: 100;
+  src: url("../../public/fonts/RecoletaAlt-Thin.ttf");
+}
+
+@font-face {
+  font-family: "RecoletaAlt";
+  font-weight: 300;
+  src: url("../../public/fonts/RecoletaAlt-Light.ttf");
+}
+
+@font-face {
+  font-family: "RecoletaAlt";
+  font-weight: 400;
+  src: url("../../public/fonts/RecoletaAlt-Regular.ttf");
+}
+
+@font-face {
+  font-family: "RecoletaAlt";
+  font-weight: 500;
+  src: url("../../public/fonts/RecoletaAlt-Medium.ttf");
+}
+
+@font-face {
+  font-family: "RecoletaAlt";
+  font-weight: 600;
+  src: url("../../public/fonts/RecoletaAlt-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "RecoletaAlt";
+  font-weight: 700;
+  src: url("../../public/fonts/RecoletaAlt-Bold.ttf");
+}
+
+@font-face {
+  font-family: "RecoletaAlt";
+  font-weight: 900;
+  src: url("../../public/fonts/RecoletaAlt-Black.ttf");
+}

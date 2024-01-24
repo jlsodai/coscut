@@ -21,6 +21,7 @@ const config = {
     extend: {
       fontFamily: {
         recoleta: ["Recoleta", ...fontFamily.serif],
+        recoletaAlt: ["RecoletaAlt", ...fontFamily.serif],
         serif: [...fontFamily.serif],
         sans: ["--font-inter", ...fontFamily.sans],
       },
