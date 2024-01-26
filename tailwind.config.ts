@@ -61,9 +61,9 @@ const config = {
         },
         cgreen: {
           DEFAULT: "#02B6A9",
-          50: "#edfffc",
-          100: "#c2fff7",
-          200: "#84fff0",
+          50: "#EFFFFE",
+          100: "#F7FCF9",
+          200: "#CBE1DF",
           300: "#3fffe8",
           400: "#08f9d9",
           500: "#00dcc0",
