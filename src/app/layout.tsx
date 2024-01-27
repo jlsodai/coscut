@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "Coscut allows companies to boost their team's morale by revolutionizing their approach to employee benefits, placing a focus on holistic well-being and satisfaction.",
   openGraph: {
     images:
-      "https://res.cloudinary.com/dmaestro/image/upload/v1706322512/open-graph_scwsjb.jpg",
+      "https://res.cloudinary.com/dmaestro/image/upload/v1706322890/opengraph-image_aknvhm.jpg",
   },
 };
 
