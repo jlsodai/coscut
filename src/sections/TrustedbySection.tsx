@@ -4,7 +4,7 @@ import React from "react";
 import { clients } from "@/lib/utils";
 const TrustedbySection = () => {
   return (
-    <div className="bg-gray-50">
+    <div className="bg-gray-50" data-aos="fade-up" data-aos-delay="550">
       <div className="container max-w-4xl mx-auto my-8">
         <h1 className="text-center mb-6 text-xl">
           Trusted by 5,000+ Companies Worldwide

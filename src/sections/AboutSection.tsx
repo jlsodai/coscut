@@ -5,7 +5,7 @@ import { stats, features } from "@/lib/utils";
 const AboutSection = () => {
   return (
     <section className="py-16">
-      <div className="container">
+      <div className="container" data-aos="fade-up" data-aos-delay="150">
         <h1 className="text-2xl lg:text-4xl font-recoleta font-bold leading-snug text-cgreen text-center max-w-2xl mx-auto">
           All-in-one platform to boost employee satisfaction and retention
         </h1>
@@ -22,6 +22,8 @@ const AboutSection = () => {
         <div className="grid md:grid-cols-3 gap-8 mt-16">
           {features.map((feature, i) => (
             <div
+              data-aos="fade-up"
+              data-aos-delay={250 * (i + 1)}
               key={i}
               className={`${feature.bg} hover:shadow-xl px-6 py-10 text-center border ${feature.border}`}
             >
@@ -36,10 +38,15 @@ const AboutSection = () => {
         </div>
       </div>
 
-      <div className="container mt-16">
+      <div className="container mt-16" data-aos="fade-up" data-aos-delay="150">
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-y-8 text-cgreen-800 text-center divide-x divide-cgreen-200 bg-gradient-to-r from-cgreen-100 via-white to-cgreen-100 border border-cgreen-200 rounded-lg py-8">
           {stats.map((stat, i) => (
-            <div className="px-4" key={i}>
+            <div
+              className="px-4"
+              key={i}
+              data-aos="fade-up"
+              data-aos-delay={250 * (i + 1)}
+            >
               <h2 className="text-3xl lg:text-6xl font-recoleta font-bold">
                 {stat.val}%
               </h2>
@@ -48,13 +55,21 @@ const AboutSection = () => {
           ))}
         </div>
 
-        <p className="max-w-4xl mx-auto text-center mt-8">
+        <p
+          className="max-w-4xl mx-auto text-center mt-8"
+          data-aos="fade-up"
+          data-aos-delay="150"
+        >
           Research indicates that placing a significant emphasis on employee
           wellness and benefits serves as a strategic advantage in attracting
           and retaining top-tier talent.
         </p>
 
-        <div className="mt-8 flex gap-8 justify-center">
+        <div
+          className="mt-8 flex gap-8 justify-center"
+          data-aos="fade-up"
+          data-aos-delay="250"
+        >
           <Button className="" variant="cgreen">
             Get started
           </Button>
