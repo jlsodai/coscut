@@ -13,7 +13,7 @@ const NavigationMenu = () => {
   const [mobileMenu, setMobileMenu] = useState(false);
 
   return (
-    <div className="flex justify-between items-center -sm:bg-white">
+    <div className="hidden lg:flex justify-between items-center">
       <nav className="max-w-screen-xl flex flex-wrap items-center justify-end mx-auto -md:relative">
         <button
           data-collapse-toggle="navbar-default"

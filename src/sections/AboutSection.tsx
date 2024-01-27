@@ -6,7 +6,7 @@ const AboutSection = () => {
   return (
     <section className="py-16">
       <div className="container">
-        <h1 className="text-4xl font-recoleta font-bold leading-snug text-cgreen text-center max-w-2xl mx-auto">
+        <h1 className="text-2xl lg:text-4xl font-recoleta font-bold leading-snug text-cgreen text-center max-w-2xl mx-auto">
           All-in-one platform to boost employee satisfaction and retention
         </h1>
         <p className="max-w-4xl mx-auto text-center mt-8">
@@ -37,10 +37,12 @@ const AboutSection = () => {
       </div>
 
       <div className="container mt-16">
-        <div className="grid grid-cols-4 text-cgreen-800 text-center divide-x divide-cgreen-200 bg-gradient-to-r from-cgreen-100 via-white to-cgreen-100 border border-cgreen-200 rounded-lg py-8">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-y-8 text-cgreen-800 text-center divide-x divide-cgreen-200 bg-gradient-to-r from-cgreen-100 via-white to-cgreen-100 border border-cgreen-200 rounded-lg py-8">
           {stats.map((stat, i) => (
             <div className="px-4" key={i}>
-              <h2 className="text-6xl font-recoleta font-bold">{stat.val}%</h2>
+              <h2 className="text-3xl lg:text-6xl font-recoleta font-bold">
+                {stat.val}%
+              </h2>
               <p>{stat.title}</p>
             </div>
           ))}
@@ -54,10 +56,10 @@ const AboutSection = () => {
 
         <div className="mt-8 flex gap-8 justify-center">
           <Button className="" variant="cgreen">
-            Get started today
+            Get started
           </Button>
           <Button className="" variant="amber">
-            Become a partner
+            Partner us
           </Button>
         </div>
       </div>

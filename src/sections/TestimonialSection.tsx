@@ -4,7 +4,7 @@ import React from "react";
 const TestimonialSection = () => {
   return (
     <section className="bg-gradient-to-r from-cgreen-50 to-cgreen-100">
-      <div className="container flex gap-24 py-16 items-center justify-center">
+      <div className="container flex flex-col lg:flex-row gap-16 lg:gap-24 py-16 items-center justify-center">
         <img
           src="/images/TestimonialImg.png"
           className="max-h-[450px]"
@@ -14,7 +14,7 @@ const TestimonialSection = () => {
           <h3 className="uppercase text-cgreen tracking-widest font-medium">
             Testimonials
           </h3>
-          <h4 className="font-recoleta font-bold text-4xl text-gray-800 leading-snug">
+          <h4 className="font-recoleta font-bold text-2xl lg:text-4xl text-gray-800 leading-snug">
             What Our Customers Say About Us
           </h4>
           <p>

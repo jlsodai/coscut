@@ -5,9 +5,53 @@ import { Button } from "@/components/ui/button";
 
 const HeroSection = () => {
   return (
-    <div className="container grid lg:grid-cols-2 items-center gap-24 flex-1 self-center my-16">
+    <div className="container grid lg:grid-cols-2 items-center gap-8 xl:gap-24 flex-1 self-center mb-16">
+      <div className="w-full relative lg:order-last" id="girl">
+        <img
+          data-aos="fade-up"
+          data-aos-once="true"
+          className="mx-auto aos-init aos-animate"
+          src="/images/heroImg.png"
+        />
+
+        <div
+          data-aos="fade-up"
+          data-aos-delay="300"
+          data-aos-once="true"
+          className="absolute top-20 -left-12 sm:top-32 sm:left-10 md:top-40 md:left-16 lg:-left-5 lg:top-32 floating-4 aos-init aos-animate"
+        >
+          <img className="h-40" src="/images/happyBirthDay.svg" alt="" />
+        </div>
+
+        <div
+          data-aos="fade-up"
+          data-aos-delay="400"
+          data-aos-once="true"
+          className="hidden sm:flex absolute top-20 -right-12 sm:right-24 sm:top-28 md:top-36 md:right-32 lg:top-24 lg:right-2 floating aos-init aos-animate"
+        >
+          <img className="h-40" src="/images/points.svg" alt="" />
+        </div>
+
+        <div
+          data-aos="fade-up"
+          data-aos-delay="500"
+          data-aos-once="true"
+          className="absolute bottom-0 -left-12 sm:left-2 sm:bottom-20 lg:bottom-14 lg:-left-4 floating aos-init aos-animate"
+        >
+          <img className="h-32" src="/images/discount20.svg" alt="" />
+        </div>
+
+        <div
+          data-aos="fade-up"
+          data-aos-delay="600"
+          data-aos-once="true"
+          className="hidden sm:flex absolute bottom-12 md:bottom-48 lg:bottom-32 -right-6 floating-4 aos-init aos-animate"
+        >
+          <img className="h-32" src="/images/30discount.svg" alt="" />
+        </div>
+      </div>
       <div className="">
-        <h1 className="text-4xl font-recoleta font-bold leading-snug text-gray-800">
+        <h1 className="text-2xl lg:text-4xl font-recoleta font-bold leading-snug text-gray-800">
           <span className="text-cgreen">Boost Team Morale: </span>
           Personalized Benefits for a Positive Workplace
         </h1>
@@ -19,50 +63,6 @@ const HeroSection = () => {
         <div className="mt-8 flex gap-6">
           <Button variant="cgreen">Get Started</Button>
           <Button variant="amber">Partner Us</Button>
-        </div>
-      </div>
-      <div className="w-full relative" id="girl">
-        <img
-          data-aos="fade-up"
-          data-aos-once="true"
-          className="w-10/12 mx-auto aos-init aos-animate"
-          src="/images/heroImg.png"
-        />
-
-        <div
-          data-aos="fade-up"
-          data-aos-delay="300"
-          data-aos-once="true"
-          className="absolute top-20 -left-6 sm:top-32 sm:left-10 md:top-40 md:left-16 lg:-left-5 lg:top-32 floating-4 aos-init aos-animate"
-        >
-          <img className="h-40" src="/images/happyBirthDay.svg" alt="" />
-        </div>
-
-        <div
-          data-aos="fade-up"
-          data-aos-delay="400"
-          data-aos-once="true"
-          className="absolute top-20 right-10 sm:right-24 sm:top-28 md:top-36 md:right-32 lg:top-24 lg:right-2 floating aos-init aos-animate"
-        >
-          <img className="h-40" src="/images/points.svg" alt="" />
-        </div>
-
-        <div
-          data-aos="fade-up"
-          data-aos-delay="500"
-          data-aos-once="true"
-          className="absolute bottom-14 -left-4 sm:left-2 sm:bottom-20 lg:bottom-14 lg:-left-4 floating aos-init aos-animate"
-        >
-          <img className="h-32" src="/images/discount20.svg" alt="" />
-        </div>
-
-        <div
-          data-aos="fade-up"
-          data-aos-delay="600"
-          data-aos-once="true"
-          className="absolute bottom-12 md:bottom-48 lg:bottom-32 -right-6 floating-4 aos-init aos-animate"
-        >
-          <img className="h-32" src="/images/30discount.svg" alt="" />
         </div>
       </div>
       {/* <div className="w-full relative" id="girl">

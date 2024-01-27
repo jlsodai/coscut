@@ -9,7 +9,7 @@ const HeaderSection = () => {
       </h1>
       <NavigationMenu />
       <Button
-        className="bg-cgreen-800 hover:bg-cgreen-800/80 ml-auto"
+        className="bg-cgreen-800 hover:bg-cgreen-800/80 ml-auto hidden sm:flex"
         variant="cgreen"
       >
         Book a meeting
