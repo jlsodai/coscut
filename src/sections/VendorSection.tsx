@@ -56,18 +56,10 @@ const VendorSection = () => {
           data-aos="fade-up"
           data-aos-once="true"
         >
-          <h1
-            data-aos="fade-up"
-            data-aos-delay="150"
-            className="text-2xl lg:text-4xl font-recoleta font-bold leading-snug text-center"
-          >
+          <h1 className="text-2xl lg:text-4xl font-recoleta font-bold leading-snug text-center">
             Ready to dive in?
           </h1>
-          <div data-aos="fade-up" data-aos-delay="150">
-            <Button className="" variant="amber">
-              Become a partner
-            </Button>
-          </div>
+          <Button variant="amber">Become a partner</Button>
         </div>
       </div>
     </section>
