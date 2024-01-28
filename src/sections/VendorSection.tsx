@@ -54,6 +54,7 @@ const VendorSection = () => {
         <div
           className="flex flex-col md:flex-row gap-x-8 gap-y-2 justify-center items-center md:col-span-2 md:bg-[#006E66]/15 py-8 text-center"
           data-aos="fade-up"
+          data-aos-delay={(vendorBenefits.length + 1) * 200}
           data-aos-once="true"
         >
           <h1 className="text-2xl lg:text-4xl font-recoleta font-bold leading-snug text-center">
