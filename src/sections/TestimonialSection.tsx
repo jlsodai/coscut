@@ -3,7 +3,10 @@ import React from "react";
 
 const TestimonialSection = () => {
   return (
-    <section className="bg-gradient-to-r from-cgreen-50 to-cgreen-100">
+    <section
+      className="bg-gradient-to-r from-cgreen-50 to-cgreen-100"
+      id="testimonials"
+    >
       <div className="container flex flex-col lg:flex-row gap-16 lg:gap-24 py-16 items-center justify-center">
         <img
           src="/images/TestimonialImg.png"
