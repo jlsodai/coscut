@@ -21,7 +21,7 @@ const TestimonialSection = () => {
             Testimonials
           </h3>
           <h4
-            className="font-recoleta font-bold text-2xl lg:text-4xl text-gray-800 leading-snug"
+            className="font-recoleta font-bold text-2xl lg:text-4xl text-gray-800 !leading-snug"
             data-aos="fade-up"
             data-aos-delay="150"
           >

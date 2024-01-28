@@ -6,7 +6,7 @@ const AboutSection = () => {
   return (
     <section className="py-16">
       <div className="container" data-aos="fade-up" data-aos-delay="150">
-        <h1 className="text-2xl lg:text-4xl font-recoleta font-bold leading-snug text-cgreen text-center max-w-2xl mx-auto">
+        <h1 className="text-2xl lg:text-4xl font-recoleta font-bold !leading-snug text-cgreen text-center max-w-2xl mx-auto">
           All-in-one platform to boost employee satisfaction and retention
         </h1>
         <p className="max-w-4xl mx-auto text-center mt-8">

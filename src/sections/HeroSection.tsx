@@ -54,15 +54,17 @@ const HeroSection = () => {
         <h1
           data-aos="fade-up"
           data-aos-delay="50"
-          className="text-2xl lg:text-4xl font-recoleta font-bold leading-snug text-gray-800"
+          className="text-2xl lg:text-4xl font-recoleta font-bold !leading-normal text-gray-800"
         >
-          <span className="text-cgreen">Boost Team Morale: </span>
-          Personalized Benefits for a Positive Workplace
+          <span className="text-cgreen">Elevate Employee Satisfaction: </span>
+          Personalized Benefits, Discounts and Perks for a Positive Workplace
         </h1>
         <p className="mt-8 text-lg" data-aos="fade-up" data-aos-delay="250">
-          A happy and fulfilled team is the key to success. Revolutionize your
-          employees&apos; financial well-being through our exclusive discounts
-          and benefits, tailored to enhance their overall satisfaction.
+          Transform your company culture and boost employee morale with Coscut.
+          We offer a tailored solution for employers seeking to provide
+          personalized benefits, exclusive discounts, and perks that resonate
+          with every team member. Create a positive and engaging workplace that
+          attracts and retains top talent.
         </p>
         <div
           className="mt-8 flex gap-6"
