@@ -8,6 +8,7 @@ import AboutSection from "../sections/AboutSection";
 import TestimonialSection from "../sections/TestimonialSection";
 import HowSection from "../sections/HowSection";
 import FooterSection from "../sections/FooterSection";
+import VendorSection from "../sections/VendorSection";
 
 const page = () => {
   return (
@@ -19,7 +20,8 @@ const page = () => {
       </section>
       <AboutSection />
       <TestimonialSection />
-      <HowSection />
+      {/* <HowSection /> */}
+      <VendorSection />
       <FooterSection />
     </>
   );
