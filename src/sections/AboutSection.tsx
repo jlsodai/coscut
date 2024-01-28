@@ -1,10 +1,41 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import { Button } from "@/components/ui/button";
-import { stats, features } from "@/lib/utils";
+import { stats } from "@/lib/utils";
+import { HiOutlineTrophy } from "react-icons/hi2";
+
+const features = [
+  {
+    title: "Attract & Retain Top Talent",
+    color: "text-amber-500",
+    bg: "bg-amber-50",
+    imgUrl:
+      "https://res.cloudinary.com/dmaestro/image/upload/v1706454566/female-programmer_dqn4cf.png",
+    border: "border-amber-300",
+    desc: "Stand out in the competitive job market. Our platform helps you attract top-notch talent and keep your best employees engaged for the long term.",
+  },
+  {
+    title: "Boost Employee Morale",
+    color: "text-blue-500",
+    bg: "bg-blue-50",
+    imgUrl: "https://www.svgrepo.com/show/492913/step-up-male.svg",
+    border: "border-blue-300",
+    desc: "Give your team more than just a paycheck. Cosset your employees with exclusive benefits that show you care about their well-being.",
+  },
+  {
+    title: "Customized Packages",
+    color: "text-rose-500",
+    bg: "bg-rose-50",
+    imgUrl:
+      "https://res.cloudinary.com/dmaestro/image/upload/v1706453445/cardboard-box-closed_icww6k.png",
+    border: "border-rose-300",
+    desc: "Tailor your employee benefits. Our platform offers customizable packages that align with the unique needs and preferences of your workforce.",
+  },
+];
 
 const AboutSection = () => {
   return (
-    <section className="py-16">
+    <section className="py-16" id="about">
       <div className="container" data-aos="fade-up" data-aos-delay="150">
         <h1 className="text-2xl lg:text-4xl font-recoleta font-bold !leading-snug text-cgreen text-center max-w-2xl mx-auto">
           All-in-one platform to boost employee satisfaction and retention
@@ -27,6 +58,10 @@ const AboutSection = () => {
               key={i}
               className={`${feature.bg} hover:shadow-xl px-6 py-10 text-center border ${feature.border}`}
             >
+              <img src={feature.imgUrl} alt="" className="mb-4 h-20 mx-auto" />
+              {/* <HiOutlineTrophy
+                className={`mx-auto ${feature.color} text-7xl mb-4`}
+              /> */}
               <h1
                 className={`${feature.color} font-medium text-xl mb-3 lg:px-14 text-darken`}
               >
