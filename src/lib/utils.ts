@@ -58,7 +58,7 @@ export const clients = [
 ];
 
 export const links = [
-  { title: "Home", url: "#" },
+  { title: "Home", url: "#top" },
   { title: "About Us", url: "#about" },
   { title: "Testimonials", url: "#testimonials" },
   { title: "Vendors", url: "#vendors" },
