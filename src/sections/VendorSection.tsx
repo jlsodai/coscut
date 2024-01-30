@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 
 const VendorSection = () => {
   return (
-    <section className="py-16" id="vendors">
+    <section className="py-16 bg-gray-50" id="vendors">
       <div className="container">
         <h1
           data-aos="fade-up"
