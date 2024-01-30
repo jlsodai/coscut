@@ -1,5 +1,6 @@
 import NavigationMenu from "@/sections/NavigationMenu";
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
+import Link from "next/link";
 
 const HeaderSection = () => {
   return (
@@ -8,12 +9,16 @@ const HeaderSection = () => {
         coscut<span className="text-amber-500">.</span>
       </h1>
       <NavigationMenu />
-      <Button
-        className="bg-cgreen-800 hover:bg-cgreen-800/80 ml-auto hidden sm:flex"
-        variant="cgreen"
+
+      <Link
+        target="blank"
+        className={`${buttonVariants({
+          variant: "cgreen",
+        })} bg-cgreen-800 hover:bg-cgreen-800/80 ml-auto hidden sm:flex`}
+        href="https://airtable.com/appChrTKgYj22P1uM/pagBTOvUxWIsILOHz/form"
       >
-        Book a meeting
-      </Button>
+        Get Started
+      </Link>
     </section>
   );
 };

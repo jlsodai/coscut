@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import { Button } from "@/components/ui/button";
+import ButtonLinks from "@/components/ui/ButtonLinks";
 
 const HeroSection = () => {
   return (
@@ -66,14 +66,7 @@ const HeroSection = () => {
           with every team member. Create a positive and engaging workplace that
           attracts and retains top talent.
         </p>
-        <div
-          className="mt-8 flex gap-6"
-          data-aos="fade-up"
-          data-aos-delay="450"
-        >
-          <Button variant="cgreen">Get Started</Button>
-          <Button variant="amber">Partner Us</Button>
-        </div>
+        <ButtonLinks />
       </div>
     </div>
   );

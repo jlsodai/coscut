@@ -1,7 +1,8 @@
 import React from "react";
 import { vendorBenefits } from "@/lib/utils";
 import { HiCheckCircle } from "react-icons/hi2";
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
+import Link from "next/link";
 
 const VendorSection = () => {
   return (
@@ -58,7 +59,13 @@ const VendorSection = () => {
           <h1 className="text-2xl lg:text-4xl font-recoleta font-bold leading-snug text-center">
             Ready to dive in?
           </h1>
-          <Button variant="amber">Become a partner</Button>
+          <Link
+            target="blank"
+            className={buttonVariants({ variant: "amber" })}
+            href="https://airtable.com/appChrTKgYj22P1uM/pagDnCEfOzFKBJaes/form"
+          >
+            Become a partner
+          </Link>
         </div>
       </div>
     </section>

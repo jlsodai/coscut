@@ -1,12 +1,12 @@
-"use client";
 /* eslint-disable @next/next/no-img-element */
+"use client";
+import ButtonLinks from "@/components/ui/ButtonLinks";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { Button } from "@/components/ui/button";
 import { useState } from "react";
 
 const steps = [
@@ -110,18 +110,7 @@ const ExplainerSection = () => {
           </div>
         </div>
 
-        <div
-          className="mt-8 flex gap-8 justify-center"
-          data-aos="fade-up"
-          data-aos-delay="250"
-        >
-          <Button className="" variant="cgreen">
-            Get started
-          </Button>
-          <Button className="" variant="amber">
-            Partner us
-          </Button>
-        </div>
+        <ButtonLinks className="justify-center" />
       </div>
     </section>
   );

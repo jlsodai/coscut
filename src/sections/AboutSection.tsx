@@ -1,8 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import { Button } from "@/components/ui/button";
 import { stats } from "@/lib/utils";
-import { HiOutlineTrophy } from "react-icons/hi2";
+import ButtonLinks from "@/components/ui/ButtonLinks";
 
 const features = [
   {
@@ -100,18 +99,7 @@ const AboutSection = () => {
           and retaining top-tier talent.
         </p>
 
-        <div
-          className="mt-8 flex gap-8 justify-center"
-          data-aos="fade-up"
-          data-aos-delay="250"
-        >
-          <Button className="" variant="cgreen">
-            Get started
-          </Button>
-          <Button className="" variant="amber">
-            Partner us
-          </Button>
-        </div>
+        <ButtonLinks className="justify-center" />
       </div>
     </section>
   );
