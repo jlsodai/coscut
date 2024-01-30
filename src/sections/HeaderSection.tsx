@@ -15,9 +15,9 @@ const HeaderSection = () => {
         className={`${buttonVariants({
           variant: "cgreen",
         })} bg-cgreen-800 hover:bg-cgreen-800/80 ml-auto hidden sm:flex`}
-        href="https://airtable.com/appChrTKgYj22P1uM/pagBTOvUxWIsILOHz/form"
+        href="https://cal.com/jlsodai/coscut"
       >
-        Get Started
+        Book a meeting
       </Link>
     </section>
   );
