@@ -17,7 +17,7 @@ const steps = [
       "Effortless Onboarding for Employers; Seamless Invitations for Employees",
     desc: "Employers embark on their Coscut journey with a straightforward onboarding process, setting the stage for a personalized benefits experience. Once registered, they extend invitations to their team members, initiating a journey toward tailored perks and discounts.",
     imgUrl:
-      "https://res.cloudinary.com/dmaestro/image/upload/v1706635850/form_kwca5u.svg",
+      "https://res.cloudinary.com/dmaestro/image/upload/v1706645991/onboard_lnpjmj.svg",
   },
   {
     title: "Employee Access to Tailored Discounts",
