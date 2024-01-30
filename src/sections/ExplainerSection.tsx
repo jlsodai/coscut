@@ -17,7 +17,7 @@ const steps = [
       "Effortless Onboarding for Employers; Seamless Invitations for Employees",
     desc: "Employers embark on their Coscut journey with a straightforward onboarding process, setting the stage for a personalized benefits experience. Once registered, they extend invitations to their team members, initiating a journey toward tailored perks and discounts.",
     imgUrl:
-      "https://res.cloudinary.com/dmaestro/image/upload/v1706604314/form_klb1ej.svg",
+      "https://res.cloudinary.com/dmaestro/image/upload/v1706635850/form_kwca5u.svg",
   },
   {
     title: "Employee Access to Tailored Discounts",
@@ -34,6 +34,14 @@ const steps = [
     desc: "Empowerment lies in customization. Employers have the flexibility to integrate their preferred vendors, complete with negotiated discounts. Additionally, they can suggest new vendors, ensuring the platform evolves to meet the evolving needs of their workforce.",
     imgUrl:
       "https://res.cloudinary.com/dmaestro/image/upload/v1706606183/shop_nnksme.svg",
+  },
+  {
+    title: "Reward and Manage Employee Perks",
+    id: "reward",
+    subtitle: "Flexibility to Bring Own Vendors or Recommend New Ones",
+    desc: "Coscut takes employee recognition to the next level. Employers can reward their team with points or perks for outstanding contributions, birthdays, or work anniversaries. This dynamic rewards system adds a personal touch, enhancing overall workplace satisfaction.",
+    imgUrl:
+      "https://res.cloudinary.com/dmaestro/image/upload/v1706635769/reward_cauqby.svg",
   },
 ];
 const ExplainerSection = () => {
@@ -64,7 +72,7 @@ const ExplainerSection = () => {
           data-aos-delay="150"
           className="mt-8 grid lg:grid-cols-2 bg-gray-100 rounded-lg p-8 gap-8"
         >
-          <div className="lg:relative bg-white/50">
+          <div className="lg:relative bg-white rounded-lg">
             {steps.map((step, i) => (
               <img
                 key={i}
