@@ -4,11 +4,12 @@ import React from "react";
 import HeaderSection from "@/sections/HeaderSection";
 import HeroSection from "@/sections/HeroSection";
 import TrustedbySection from "@/sections/TrustedbySection";
-import AboutSection from "../sections/AboutSection";
-import TestimonialSection from "../sections/TestimonialSection";
-import HowSection from "../sections/HowSection";
-import FooterSection from "../sections/FooterSection";
-import VendorSection from "../sections/VendorSection";
+import AboutSection from "@/sections/AboutSection";
+import TestimonialSection from "@/sections/TestimonialSection";
+import HowSection from "@/sections/HowSection";
+import FooterSection from "@/sections/FooterSection";
+import VendorSection from "@/sections/VendorSection";
+import ExplainerSection from "@/sections/ExplainerSection";
 
 const page = () => {
   return (
@@ -20,7 +21,7 @@ const page = () => {
       </section>
       <AboutSection />
       <TestimonialSection />
-      {/* <HowSection /> */}
+      <ExplainerSection />
       <VendorSection />
       <FooterSection />
     </>
