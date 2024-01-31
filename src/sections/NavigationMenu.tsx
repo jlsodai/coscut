@@ -6,7 +6,7 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 
 import { usePathname } from "next/navigation";
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
 
 const NavigationMenu = () => {
   const currentRoute = usePathname();
@@ -94,6 +94,17 @@ const NavigationMenu = () => {
                   </Link>
                 </li>
               ))}
+              <li>
+                <Link
+                  target="blank"
+                  className={`${buttonVariants({
+                    variant: "cgreen",
+                  })} bg-cgreen-800 hover:bg-cgreen-800/80 ml-auto hidden -md:flex`}
+                  href="https://cal.com/jlsodai/coscut"
+                >
+                  Book a meeting
+                </Link>
+              </li>
             </ul>
           </div>
         </nav>
