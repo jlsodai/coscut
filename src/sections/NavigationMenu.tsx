@@ -43,7 +43,7 @@ const NavigationMenu = () => {
 
   return (
     <>
-      <div className="hidden lg:flex justify-between items-center">
+      <div className="flex justify-between items-center">
         <nav className="max-w-screen-xl flex flex-wrap items-center justify-end mx-auto -md:relative">
           <button
             data-collapse-toggle="navbar-default"
@@ -98,7 +98,7 @@ const NavigationMenu = () => {
           </div>
         </nav>
       </div>
-      <Link
+      {/* <Link
         href="#top"
         title="Go To Top"
         onClick={handleScroll}
@@ -107,7 +107,7 @@ const NavigationMenu = () => {
         } fixed z-90 bottom-8 right-8 border-0 w-16 h-16 rounded-full drop-shadow-md bg-amber-500 text-white text-2xl font-bold flex justify-center items-center`}
       >
         &uarr;
-      </Link>
+      </Link> */}
     </>
   );
 };
