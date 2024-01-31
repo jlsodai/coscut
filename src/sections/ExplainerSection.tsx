@@ -20,7 +20,7 @@ const steps = [
       "https://res.cloudinary.com/dmaestro/image/upload/v1706645991/onboard_lnpjmj.svg",
   },
   {
-    title: "Team Access to Tailored Discounts",
+    title: "Team Access to Curated Discounts",
     id: "access",
     subtitle: "Curated Discounts for Every Employee Preference",
     desc: "With invitations accepted, employees gain immediate access to a curated selection of discounts from Coscut's diverse vendor network. Simultaneously, employers customize the benefits landscape by seamlessly integrating their preferred vendors, complete with negotiated discounts or suggesting new ones.",
