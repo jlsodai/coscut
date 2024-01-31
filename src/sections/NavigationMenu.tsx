@@ -77,7 +77,7 @@ const NavigationMenu = () => {
             } z-50 w-full md:block md:w-auto -md:absolute top-12 min-w-[200px]`}
             id="navbar-default"
           >
-            <ul className="flex flex-col items-center p-4 md:p-0 mt-4 border border-gray-400 rounded-lg -md:bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 mb-2">
+            <ul className="flex flex-col items-center p-4 md:p-0 mt-4 border border-gray-200 rounded-lg -md:bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 mb-2">
               {links.map((link, i) => (
                 <li key={i}>
                   <Link
