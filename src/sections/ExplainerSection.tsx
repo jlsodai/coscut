@@ -11,35 +11,35 @@ import { useState } from "react";
 
 const steps = [
   {
-    title: "Employer Signup and Employee Invitation",
+    title: "Employer Signup and Team Invitation",
     id: "signup",
     subtitle:
       "Effortless Onboarding for Employers; Seamless Invitations for Employees",
-    desc: "Employers embark on their Coscut journey with a straightforward onboarding process, setting the stage for a personalized benefits experience. Once registered, they extend invitations to their team members, initiating a journey toward tailored perks and discounts.",
+    desc: "Employers seamlessly initiate their Coscut journey by effortlessly registering on the platform, where the process is not only simple but also tailored to their specific needs. Once registered, they unlock a realm of possibilities and extend personalized invitations to their team members, marking the beginning of an exciting and tailored benefits exploration.",
     imgUrl:
       "https://res.cloudinary.com/dmaestro/image/upload/v1706645991/onboard_lnpjmj.svg",
   },
   {
-    title: "Employee Access to Tailored Discounts",
+    title: "Team Access to Tailored Discounts",
     id: "access",
     subtitle: "Curated Discounts for Every Employee Preference",
-    desc: "Accepted invitations grant employees immediate access to a curated selection of discounts from Coscut's diverse vendor network. From local favorites to global brands, these perks are tailored to match individual preferences, ensuring a satisfying benefits experience.",
-    imgUrl:
-      "https://res.cloudinary.com/dmaestro/image/upload/v1706601739/shopping_lady_m5hndp.svg",
-  },
-  {
-    title: "Customize Vendor Options",
-    id: "customize",
-    subtitle: "Flexibility to Bring Own Vendors or Recommend New Ones",
-    desc: "Empowerment lies in customization. Employers have the flexibility to integrate their preferred vendors, complete with negotiated discounts. Additionally, they can suggest new vendors, ensuring the platform evolves to meet the evolving needs of their workforce.",
+    desc: "With invitations accepted, employees gain immediate access to a curated selection of discounts from Coscut's diverse vendor network. Simultaneously, employers customize the benefits landscape by seamlessly integrating their preferred vendors, complete with negotiated discounts or suggesting new ones.",
     imgUrl:
       "https://res.cloudinary.com/dmaestro/image/upload/v1706606183/shop_nnksme.svg",
   },
+  // {
+  //   title: "Customize Vendor Options",
+  //   id: "customize",
+  //   subtitle: "Flexibility to Bring Own Vendors or Recommend New Ones",
+  //   desc: "Empowerment lies in customization. Employers have the flexibility to integrate their preferred vendors, complete with negotiated discounts. Additionally, they can suggest new vendors, ensuring the platform evolves to meet the evolving needs of their workforce.",
+  //   imgUrl:
+  //     "https://res.cloudinary.com/dmaestro/image/upload/v1706606183/shop_nnksme.svg",
+  // },
   {
-    title: "Reward and Manage Employee Perks",
+    title: "Reward and Manage Team Perks",
     id: "reward",
     subtitle: "Flexibility to Bring Own Vendors or Recommend New Ones",
-    desc: "Coscut takes employee recognition to the next level. Employers can reward their team with points or perks for outstanding contributions, birthdays, or work anniversaries. This dynamic rewards system adds a personal touch, enhancing overall workplace satisfaction.",
+    desc: "Coscut enhances employee recognition with points or perks for achievements, birthdays, or work anniversaries. This dynamic system adds a personal touch, boosting overall workplace satisfaction. Employers effortlessly manage and track perks via Coscut's intuitive dashboard for a seamless, transparent benefits experience.",
     imgUrl:
       "https://res.cloudinary.com/dmaestro/image/upload/v1706635769/reward_cauqby.svg",
   },
