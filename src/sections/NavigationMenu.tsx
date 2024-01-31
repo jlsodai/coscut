@@ -48,7 +48,7 @@ const NavigationMenu = () => {
           <button
             data-collapse-toggle="navbar-default"
             type="button"
-            className="inline-flex items-center p-2 w-10 h-10 justify-center rounded-lg md:hidden hover:bg-gray-100 bg-white"
+            className="inline-flex items-center p-2 w-10 h-10 justify-center rounded-lg md:hidden hover:bg-cgreen-800/80 bg-cgreen-800 text-white"
             aria-controls="navbar-default"
             aria-expanded="false"
             onClick={() => setMobileMenu(!mobileMenu)}
