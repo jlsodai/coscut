@@ -8,7 +8,7 @@ const HeaderSection = () => {
       className="container py-8 flex -md:justify-between md:gap-x-16 items-center"
       id="top"
     >
-      <h1 className="font-recoleta text-cgreen-800 text-5xl font-bold mb-2">
+      <h1 className="font-recoleta text-cgreen-800 text-5xl font-bold md:mb-2">
         coscut<span className="text-amber-500">.</span>
       </h1>
       <NavigationMenu />
