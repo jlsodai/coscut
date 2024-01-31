@@ -72,7 +72,7 @@ const ExplainerSection = () => {
           data-aos-delay="150"
           className="mt-8 grid lg:grid-cols-2 bg-gray-100 rounded-lg p-8 gap-8"
         >
-          <div className="lg:relative bg-white rounded-lg">
+          <div className="-md:hidden lg:relative bg-white rounded-lg">
             {steps.map((step, i) => (
               <img
                 key={i}
